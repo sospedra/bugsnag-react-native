@@ -4,8 +4,12 @@
   "license": "MIT",
   "main": "index.js",
   "nativePackage": true,
+  "scripts": {
+      "upload-sourcemap": "node bin/bugsnag-upload-sourcemap.js"
+  },
   "dependencies": {
-    "promise": "^7"
+    "promise": "^7",
+    "request": "^2"
   },
   "peerDependencies": {
     "react-native": ">=0.40"
